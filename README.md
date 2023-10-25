@@ -2,5 +2,5 @@
 
 Alguns projetos simples criados em C#:
 
-## [Cronômetro (WinFroms)](/Stopwatch/)
+## [Cronômetro (WinForms)](/Stopwatch/)
 <img src="Stopwatch/_screenshot1.jpg">
