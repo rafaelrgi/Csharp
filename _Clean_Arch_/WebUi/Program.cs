@@ -1,5 +1,6 @@
-using System.Globalization;
 using Data;
+using Infra;
+using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 
