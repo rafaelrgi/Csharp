@@ -1,5 +1,6 @@
 using Data;
 using Infra;
+using WebUi;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddInfraestructure(builder.Configuration);
+builder.Services.AddAutoMapperConfiguration();
 builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
 

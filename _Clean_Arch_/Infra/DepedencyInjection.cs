@@ -32,6 +32,10 @@ public static class DependencyInjection
     })
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
+    //TODO:
+    // services.AddScoped<IClientRepository, ClientRepository>();
+    // services.AddScoped<IClientService, ClientService>();
+
     return services;
   }
 }
