@@ -2,8 +2,8 @@
 
 Some simple C# projects:
 
-## [Clean Architecure Skeleton](/_Clean_Arch_/)
-A simple skeleton to create new projects based on the Clean Archteture. <br>
+## [Clean Architecture Skeleton](/_Clean_Arch_/)
+A simple skeleton to create new projects based on the Clean Architecture. <br>
 <img src="_Clean_Arch_/_screenshot.jpg" width="340">
 <br>
 <br>
