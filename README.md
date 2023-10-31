@@ -1,6 +1,6 @@
 # Csharp
 
-Alguns projetos simples criados em C#:
+Some simple C# projects:
 
 ## [Clean Architecure Skeleton](/_Clean_Arch_/)
 A simple skeleton to create new projects based on the Clean Archteture. <br>
