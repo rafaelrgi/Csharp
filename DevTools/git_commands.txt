@@ -1,0 +1,19 @@
+git status
+
+git branch $branch
+git checkout $branch
+git add .
+git-cz
+
+git push -u origin $branch
+
+----
+git status
+git restore .
+
+git checkout garantia
+git fetch --all
+git pull --all
+
+flutter clean | flutter pub get | flutter packages pub get | flutter pub run build_runner build --delete-conflicting-outputs | flutter pub run intl_utils:generate
+
