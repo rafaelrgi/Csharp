@@ -29,14 +29,17 @@ namespace DevTools
 
   internal static class SvcGit
   {
-    internal static GitCommands Run(int id, WorkItemType type)
+    internal static GitCommands Run(int id, string ending, WorkItemType type)
     {
       var txt = LoadTemplate();
 
+      string _ending = ending.Trim();
+
       var branch =
-          (type == WorkItemType.Fix ? "Fix" : "Feature")
+          (type == WorkItemType.Fix ? "Fix" : "Feat")
           + "/#"
-          + id.ToString();
+          + id.ToString()
+          + (ending.Length > 0? '.' + ending : "");
 
       int separator = txt.Length;
       for (int i = txt.Length - 1; i >= 0; i--)

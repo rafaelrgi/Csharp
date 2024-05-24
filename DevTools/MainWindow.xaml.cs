@@ -111,7 +111,7 @@ namespace DevTools
 
       WorkItemType type = (radFeature.IsChecked ?? false) ? WorkItemType.Feature : WorkItemType.Fix;
 
-      GitCommands commands = SvcGit.Run(id, type);
+      GitCommands commands = SvcGit.Run(id, txtEnding.Text, type);
 
       lbx1.ItemsSource = commands.Commands1;
       lbx1.Visibility = Visibility.Visible;

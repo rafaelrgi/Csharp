@@ -9,12 +9,14 @@
         Title="GitTool" Height="591" Width="661" FontSize="16" ResizeMode="CanMinimize" VerticalAlignment="Top" Topmost="True" Loaded="Window_Loaded">
   <Grid x:Name="Grid" Height="569" VerticalAlignment="Top" Margin="1,0,-1,0">
     <Label Content="Nº do item" HorizontalAlignment="Left" Margin="8,8,0,0" VerticalAlignment="Top"/>
-    <TextBox x:Name="txtId" PreviewTextInput="txtId_Preview" HorizontalAlignment="Left" Margin="14,35,0,0" Text="" VerticalAlignment="Top" Width="186" InputScope="Number" TextChanged="txtId_TextChanged" TabIndex="0"/>
+    <TextBox x:Name="txtId" PreviewTextInput="txtId_Preview" HorizontalAlignment="Left" Margin="14,35,0,0" Text="" VerticalAlignment="Top" Width="122" InputScope="Number" TextChanged="txtId_TextChanged" TabIndex="0"/>
     <Button x:Name="btnOk" Content="OK" HorizontalAlignment="Left" Margin="522,34,0,0" VerticalAlignment="Top" Width="111" IsEnabled="False" IsDefault="True" TabIndex="3" Cursor="Hand" Click="btnOk_Click"/>
     <RadioButton x:Name="radFix" Content="Fix" HorizontalAlignment="Left" Margin="284,37,0,0" VerticalAlignment="Top" IsChecked="True" TabIndex="1" VerticalContentAlignment="Center"/>
     <RadioButton x:Name="radFeature" Content="Feature" HorizontalAlignment="Left" Margin="344,35,0,0" VerticalAlignment="Top" TabIndex="2" VerticalContentAlignment="Center"/>
     <ListBox x:Name="lbx1" HorizontalAlignment="Left" Margin="14,83,0,15" Width="308" VerticalContentAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Disabled" SelectionChanged="ListBox_SelectionChanged" />
     <ListBox x:Name="lbx2" HorizontalAlignment="Left" Margin="344,83,0,15" Width="289" ScrollViewer.CanContentScroll="False" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Visible" SelectionChanged="ListBox_SelectionChanged" />
+    <TextBox x:Name="txtEnding" HorizontalAlignment="Left" Margin="150,35,0,0" Text="" VerticalAlignment="Top" Width="99" InputScope="Number" TextChanged="txtId_TextChanged" TabIndex="0"/>
+    <Label Content="." HorizontalAlignment="Left" Margin="136,33,0,0" VerticalAlignment="Top"/>
 
   </Grid>
 </Window>
